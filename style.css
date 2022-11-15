@@ -1,0 +1,35 @@
+#kalkulator{
+ width: 250px;
+ height: 350px;
+ text-align: center;
+
+ background-color: lightsalmon;
+ margin: 100px auto;
+ border-radius: 5px;
+}
+
+#przyciski, #suma{
+    width: 40px;
+    height: 35px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border: 0;
+    border-radius: 3px;
+    background-color: turquoise;
+}
+#display{
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+#suma{
+    width: 80px;
+}
+
+#przyciski:hover , #suma:hover {
+    background-color: firebrick;
+    color: white;
+    border: 0;
+}
